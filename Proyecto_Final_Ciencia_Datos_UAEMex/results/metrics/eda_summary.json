@@ -1,0 +1,44 @@
+{
+    "total_samples": 45211,
+    "missing_values_per_col": {
+        "age": 0,
+        "job": 288,
+        "marital": 0,
+        "education": 1857,
+        "default": 0,
+        "balance": 0,
+        "housing": 0,
+        "loan": 0,
+        "contact": 13020,
+        "day_of_week": 0,
+        "month": 0,
+        "duration": 0,
+        "campaign": 0,
+        "pdays": 0,
+        "previous": 0,
+        "poutcome": 36959,
+        "y": 0
+    },
+    "class_0_count": 39922,
+    "class_1_count": 5289,
+    "num_features": [
+        "age",
+        "balance",
+        "day_of_week",
+        "campaign",
+        "pdays",
+        "previous"
+    ],
+    "cat_features": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "month",
+        "poutcome"
+    ],
+    "processed_dim": 46
+}

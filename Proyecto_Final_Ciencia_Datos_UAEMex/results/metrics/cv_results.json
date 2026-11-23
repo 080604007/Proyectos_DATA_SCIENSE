@@ -1,0 +1,26 @@
+{
+    "Baseline_LogReg": {
+        "best_params": "{'C': 10.0, 'penalty': 'l2'}",
+        "cv_mean_f1": 0.3666,
+        "cv_std_f1": 0.0118,
+        "training_time_sec": 7.92
+    },
+    "Naive_Bayes": {
+        "best_params": "{'var_smoothing': np.float64(1e-11)}",
+        "cv_mean_f1": 0.3851,
+        "cv_std_f1": 0.0225,
+        "training_time_sec": 5.77
+    },
+    "SVM": {
+        "best_params": "{'C': 1.0, 'gamma': 'scale', 'kernel': 'rbf'}",
+        "cv_mean_f1": 0.4108,
+        "cv_std_f1": 0.016,
+        "training_time_sec": 98.64
+    },
+    "MLP_NeuralNet": {
+        "best_params": "{'learning_rate_init': 0.005, 'hidden_layer_sizes': (128, 64), 'alpha': 0.001}",
+        "cv_mean_f1": 0.3048,
+        "cv_std_f1": 0.0551,
+        "training_time_sec": 185.41
+    }
+}
